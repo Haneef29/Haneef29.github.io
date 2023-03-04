@@ -26,4 +26,6 @@ menu_item.forEach(item=>{
 
 
 
+  AOS.init();
+
  

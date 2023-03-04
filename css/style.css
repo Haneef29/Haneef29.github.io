@@ -503,12 +503,12 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 18px 0 #0000002c;
+  box-shadow: 0px 0px 18px 0px orange;
   transition: .3s ease box-shadow;
   flex-direction: column;
 }
 #contact .contact-item:hover{
-    box-shadow: 0px 0px 5px 0 #0000002c;
+    box-shadow: 1px 0px 5px 0 #0000002c;
 }
 
 #contact .icon{
@@ -529,6 +529,7 @@ p{
 .contact-item .icon{
     font-size: 2rem;
     margin-left: 10px;
+    color: crimson;
 }
 /* End contact section */
 
@@ -541,6 +542,9 @@ p{
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 10px;
+}
+#footer p{
+    text-align: center;
 }
 #footer h2{
     color: white;
